@@ -1,3 +1,7 @@
-<app-button [text]="'Adquirir'" [style]="'white'" [disabled]="true" (clickedChild)="btnClickedFather()"></app-button>
+<div class="cards-container">
+    <app-card [planType]="'Simples'" [planPrice]="100" [cardStyle]="'orange'" (buttonClicked)="onCardButtonClicked()">
+    </app-card>
 
-<app-button [text]="'Adquirir'" [style]="'purple'" (clickedChild)="btnClickedFather()"></app-button>
+    <app-card [planType]="'Completo'" [planPrice]="250" [cardStyle]="'purple'" (buttonClicked)="onCardButtonClicked()">
+    </app-card>
+</div>

@@ -7,8 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  btnClickedFather(){
-     console.log('btnClickedFather!');
+
+  onCardButtonClicked(){
+    console.log('onCardButtonClicked!');
+    // Aqui chamada http://
   }
 
 }
